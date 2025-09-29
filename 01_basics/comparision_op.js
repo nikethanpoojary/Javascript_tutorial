@@ -23,3 +23,5 @@ console.log(null != 0); //output true
 console.log(null != undefined); //output false
 
 console.log("90" >89); // "90" is converted to 90.
+
+console.log("78"===78); // strict equality, output -> false
