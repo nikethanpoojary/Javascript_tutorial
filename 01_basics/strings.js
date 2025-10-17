@@ -15,4 +15,18 @@ console.log(strName3);
 console.log(strName3.slice(-7,-3));       
 console.log(strName3.substring(-4,7)); //treat -4 as 0
 
+const userName = "   Ramakanth  "
+console.log(userName);
+console.log(userName.trim());// trimStart(), trinEnd()
+
+const urlPath = "www.teraform.com/animal%20planet"
+
+console.log(urlPath);
+console.log(urlPath.replace('%20','-'));
+console.log(urlPath.includes('anim'));
+console.log(urlPath.split('.')); // splits based on seperator (here '.') into an array
+
+
+
+
 
